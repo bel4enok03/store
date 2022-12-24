@@ -3,7 +3,6 @@ import { data } from './data';
 import Clothes from './Clothes';
 import Buttons from './Buttons';
 
-
 function Product() {
 	const [clothes, setClothes] = useState(data);
 	const chosenClothes = (searchTerm) => {
